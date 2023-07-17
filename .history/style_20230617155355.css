@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: #971b1b;
+  padding: 10px 15vw;
+}
+.navbar img {
+  height: 60px;
+  width: auto;
+  background-color: white;
+  padding-top: -50px;
+}
+.navbar a {
+  font-family: "Italiana", serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.header {
+  background-color: #971b1b;
+  height: 100vh;
+}
+.saletag {
+  display: flex;
+}
+.saletag h1 {
+  font-size: 10rem;
+  color: #971b1b;
+  font-family: "Italiana", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-top: 25px;
+  font-weight: 700;
+  margin-left: 150px;
+  white-space: nowrap;
+  position: absolute;
+  text-transform: uppercase;
+  text-shadow: -1px 5px 6px rgba(0, 0, 0, 0.6);
+  -webkit-animation: mymove 5s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  /* animation: mymove 8s linear infinite alternate; */
+}
+@keyframes mymove {
+  from {
+    left: 1000px;
+  }
+  to {
+    left: -500px;
+  }
+}
+.limited-offers {
+  display: flex;
+  height: 20vh;
+  padding: 5vh 5vw;
+  justify-content: space-between;
+}
+.limited-offers .limited-tag h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
+.limited-circles {
+  display: flex;
+}
+.limited-circles .small-circle {
+  height: 70px;
+  width: 70px;
+  background-color: pink;
+  border-radius: 50%;
+  margin-left: 4vw;
+}

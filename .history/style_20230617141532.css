@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: #971b1b;
+  padding: 10px 15vw;
+}
+.navbar img {
+  height: 60px;
+  width: auto;
+  background-color: white;
+  padding-top: -50px;
+}
+.navbar a {
+  font-family: "Italiana", serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}

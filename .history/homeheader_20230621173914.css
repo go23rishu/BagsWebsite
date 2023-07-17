@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Kopub;
+  src: url(./fonts/KoPubBatang-Bold.ttf);
+  src: url(./fonts/KoPubBatang-Light.ttf);
+  src: url(./fonts/KoPubBatang-Regular.ttf);
+}
+.spacious {
+  display: flex;
+}
+img {
+  height: 400px;
+}

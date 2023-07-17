@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: maroon;
+}
+.navbar img {
+  height: 100px;
+  width: auto;
+  background-color: white;
+}

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Kopub;
+  src: url(./fonts/KoPubBatang-Bold.ttf);
+  src: url(./fonts/KoPubBatang-Light.ttf);
+  src: url(./fonts/KoPubBatang-Regular.ttf);
+}
+.home-header {
+  width: 100vw;
+  background-color: blueviolet;
+}
+.spacious {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10vh 15vw;
+}
+img {
+  height: 400px;
+}
+span {
+  font-family: Kopub;
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+.home-header-bags {
+  padding: 10vh 7vw;
+  position: relative;
+  animation: keepmoving 8s infinite;
+}
+@keyframes keepmoving {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -100%;
+  }
+}
+.home-header-bags2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  animation: keepmoving2 8s infinite;
+}
+@keyframes keepmoving2 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0px;
+  }
+}
+.home-header-bags3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

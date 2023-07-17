@@ -1,0 +1,96 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.product {
+  display: flex;
+  background-color: pink;
+  justify-content: stretch;
+  /* z-index: 999; */
+  height: 520px;
+  /* position: relative; */
+}
+.products img {
+  height: 450px;
+  position: absolute;
+  right: 20%;
+  filter: drop-shadow(-16px 100px 80px #0000005d);
+}
+.product-details {
+  width: 50%;
+  padding: 15vh 14vw;
+}
+.product-image {
+  width: 55%;
+  position: relative;
+}
+.circle1 {
+  position: absolute;
+  background-color: rgb(248, 82, 110);
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  top: 5%;
+  right: -10%;
+}
+.product h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.product p {
+  font-weight: 500;
+  font-size: 18px;
+}
+.rate {
+  display: flex;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+}
+.current-price {
+  font-size: 36px;
+  font-weight: bold;
+}
+.old-price {
+  font-size: 34px;
+  font-weight: 500;
+}
+.discount {
+  color: maroon;
+  margin-left: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.add-to-cart {
+  color: white;
+  background-color: rgb(248, 82, 110);
+  border: none;
+  font-size: 14px;
+  padding: 8px 5px;
+  width: 150px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.circle2 {
+  background-color: rgb(15, 175, 197);
+  top: 0;
+  left: 0;
+  border-radius: 0 0 225px 225px;
+  height: 225px;
+  width: 450px;
+  /* z-index: -1; */
+}
+
+.product2 {
+  background-color: lightblue;
+}
+.add-to-cart2 {
+  background-color: rgb(15, 175, 197);
+}
+.image2 {
+  margin-top: 50px;
+}

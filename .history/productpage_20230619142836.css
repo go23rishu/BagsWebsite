@@ -1,0 +1,19 @@
+.products {
+  display: flex;
+  flex-direction: column;
+}
+.product {
+  display: flex;
+  background-color: bisque;
+  width: 100vw;
+}
+.products img {
+  height: 75%;
+  width: max-width;
+}
+.product-details {
+  background-color: rebeccapurple;
+}
+.product-image {
+  background-color: aqua;
+}

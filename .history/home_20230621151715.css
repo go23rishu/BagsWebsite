@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Kopub;
+  src: url(./fonts/KoPubBatang-Bold.ttf);
+  src: url(./fonts/KoPubBatang-Light.ttf);
+  src: url(./fonts/KoPubBatang-Regular.ttf);
+}
+.navbar-home {
+  background: #1e1e1e;
+}
+.home-header {
+  height: 100vh;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(40, 29, 61, 1) 15%,
+    rgba(59, 35, 90, 1) 30%,
+    rgba(94, 49, 153, 1) 45%,
+    rgba(151, 71, 255, 1) 60%,
+    rgba(94, 49, 153, 1) 75%,
+    rgba(40, 29, 61, 1) 90%,
+    rgba(20, 20, 20, 1) 100%
+  );
+}
+/* Featured Division Styling */
+.home-featured {
+  background-color: white;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.home-featured span {
+  font-family: "Kopub";
+  font-size: 96px;
+  letter-spacing: 15px;
+  color: rgba(0, 0, 0, 0.078);
+}
+.home-featured label {
+  font-size: 32px;
+}

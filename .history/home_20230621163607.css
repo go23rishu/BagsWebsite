@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Kopub;
+  src: url(./fonts/KoPubBatang-Bold.ttf);
+  src: url(./fonts/KoPubBatang-Light.ttf);
+  src: url(./fonts/KoPubBatang-Regular.ttf);
+}
+.navbar-home {
+  background: #1e1e1e;
+}
+.home-header {
+  height: 100vh;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(40, 29, 61, 1) 15%,
+    rgba(59, 35, 90, 1) 30%,
+    rgba(94, 49, 153, 1) 45%,
+    rgba(151, 71, 255, 1) 60%,
+    rgba(94, 49, 153, 1) 75%,
+    rgba(40, 29, 61, 1) 90%,
+    rgba(20, 20, 20, 1) 100%
+  );
+}
+/* Featured Division Styling */
+.home-featured {
+  background-color: white;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.home-featured span {
+  font-family: "Kopub";
+  font-size: 96px;
+  letter-spacing: 15px;
+  color: rgba(0, 0, 0, 0.078);
+}
+.home-featured label {
+  font-size: 32px;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  margin-top: -100px;
+  letter-spacing: 2px;
+}
+.home-featured iframe {
+  height: 100vh;
+}
+/* Limited Editions Div Styling */
+.home-limited-editions {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+home-limited-editions-design {
+  display: flex;
+  width: 100vw;
+  flex-direction: row !important;
+  position: relative;
+}
+.home-limited-editions label {
+  font-family: "Kanit", sans-serif;
+  font-size: 1250%;
+  line-height: 150px;
+  margin-left: 90px;
+  background: url(./assets/maskingbag.webp);
+  background-size: 200%;
+  color: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.violet-rectangles {
+  height: 30px;
+  /* width: 200px; */
+  background-color: #9747ff;
+  margin-top: 15px;
+}
+.violet-rectangles1 {
+  width: 4%;
+  position: absolute;
+  top: 180px;
+}
+.violet-rectangles2 {
+  width: 6%;
+  position: absolute;
+  top: 230px;
+}
+.violet-rectangles3 {
+  width: 38%;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.violet-rectangles4 {
+  width: 32%;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+.violet-rectangles5 {
+  width: 33%;
+  position: absolute;
+  right: 0;
+  top: 130px;
+}
+.home-limited-editions-bags-and-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15vh;
+}
+.home-limited-editions-bags-and-button button {
+  background-color: #fca311;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.home-limited-editions-bags-and-button i {
+  font-size: 20px;
+  margin-left: 10px;
+  padding-right: 15px;
+}
+.black-line-circle {
+  height: 250px;
+  width: 180px;
+  border: 30px solid black;
+  border-radius: 49%;
+}
+/* Shop Now Div Styling */
+.home-shop {
+  background-color: #a46439;
+  height: 80vh;
+  padding: 2vh 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.bag {
+  width: 33vw;
+}
+.home-shop img {
+  height: 400px;
+  margin-left: -185px;
+  margin-top: -200px;
+}
+.sale-tags {
+  font-family: "Kumbh Sans";
+  display: flex;
+  font-weight: 700;
+  font-size: 120px;
+  color: white;
+  flex-direction: column;
+}
+.desc {
+  max-width: 33vw;
+  padding: 15vh 5vw;
+}
+.desc h3 {
+  font-size: 40px;
+}
+.desc h2 {
+  font-size: 55px;
+}
+.desc p {
+  font-size: 20px;
+  line-height: 100%;
+}
+.desc button {
+  font-family: "Kanit", sans-serif;
+}

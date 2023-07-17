@@ -1,0 +1,26 @@
+.products {
+  display: flex;
+  flex-direction: column;
+}
+.product {
+  display: flex;
+  background-color: bisque;
+  justify-content: stretch;
+}
+.products img {
+  height: 500px;
+}
+.product-details {
+  background-color: rebeccapurple;
+  width: 50%;
+}
+.product-image {
+  background-color: aqua;
+  width: 55%;
+  position: relative;
+}
+.circle1 {
+  background-color: red;
+  height: 350px;
+  width: 350px;
+}

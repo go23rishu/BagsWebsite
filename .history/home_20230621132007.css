@@ -1,0 +1,16 @@
+.navbar-home {
+  background: #1e1e1e;
+}
+.home-header {
+  height: 100vh;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(40, 29, 61, 1) 19%,
+    rgba(59, 35, 90, 1) 33%,
+    rgba(94, 49, 153, 1) 52%,
+    rgba(151, 71, 255, 1) 75%,
+    rgba(20, 20, 20, 1) 100%
+  );
+}
